@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking  fontawesome -->
+    <script src="https://kit.fontawesome.com/551ec3684e.js" crossorigin="anonymous"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header part of to dolist -->
+        <div class="header">
+       
+             <i class="fa-solid fa-bars"></i>
+
+             <!-- taking input from user -->
+            <div class="task-input">
+                <input type="text"placeholder="Add task "id="user-input"> 
+            </div>
+           <!-- add button -->
+            <i class="fa-solid fa-circle-plus"></i>
+     
+         <!--end of header part  -->
+        </div>
+
+        <div class="controls">
+            <div class="filter">
+                <h6>
+                    <!-- mark as all completed -->
+                <span class="all"><i class="fa-solid fa-check-double"> </i></span> complete all task</h6>
+                <!-- delte button -->
+                <button class="clear-button">Delete All</button>
+            </div>        
+        </div>
+        <!-- starting of unorderd list -->
+        <ul id="task-box"> </ul> 
+        <!-- task counter -->
+        <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+        <!-- end of task counter -->
+    
+    </div>
+    <!-- linking javascript -->
+    <script src="java_scr.js"></script>
+    
+</body>
+</html>
