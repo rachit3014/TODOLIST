@@ -29,7 +29,7 @@ in style.css - where all the css were written to modify the html pages, in scrip
 
 
 
-# hosted url:- "  "
+# hosted url:- " https://rachit3014.github.io/TODOLIST/ "
 After that i have written all the possible conditions which is required to make the todolist functional or in proper working.
 
                             
